@@ -1,0 +1,57 @@
+.dropdown:hover .dropdown-menu {
+    display: block;
+    color: rgb(67, 142, 172);
+}
+
+.btn-custom {
+    background-color: transparent;
+    color: black;
+    border: none;
+}
+.btn-custom:hover {
+    background-color: transparent;
+    color: rgb(67, 142, 172);
+}
+.page-link {
+    color: black;
+}
+
+.page-link:hover {
+    color: rgb(67, 142, 172);
+}
+
+a.nodec {
+    text-decoration: none;
+    color: black;
+}
+
+a.nound {
+    text-decoration: none;
+}
+
+h2.side {
+    font-family: Montserrat, "Helvetica Neue", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6153846154;
+    font-weight: bold;
+}
+
+.updated:not(.published) {
+    display: none;
+}
+
+.says,
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute !important;
+    width: 1px;
+    word-wrap: normal !important;
+}
+hr {
+    height: 5px;
+    color: #000;
+    background-color: black;
+    opacity: 1;
+}
